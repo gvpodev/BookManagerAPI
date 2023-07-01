@@ -1,6 +1,13 @@
-﻿namespace BookManager.Controllers;
+﻿using Microsoft.AspNetCore.Mvc;
 
-public class BookController
+namespace BookManager.Controllers;
+
+[Route("api/[controller]")]
+[ApiController]
+public class BookController : ControllerBase
 {
-    
+    public IActionResult Create()
+    {
+        return Ok();
+    }
 }
