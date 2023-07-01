@@ -1,0 +1,79 @@
+# Arquivos de compilação
+*.dll
+*.exe
+*.pdb
+
+# Arquivos de publicação
+*.publishsettings
+publish/
+
+# Diretórios de saída de compilação
+bin/
+obj/
+
+# Arquivos gerados pelo Visual Studio
+*.user
+*.vscode
+.vs/
+*.suo
+*.cache
+*.csproj.user
+*.sln.docstates
+
+# Diretório de dependências
+packages/
+
+# Arquivos de registro do IIS Express
+*.xml
+*.config
+
+# Arquivos de build do MSBuild
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+
+# Ferramentas do MSBuild
+msbuild.exe
+msbuild.log
+msbuild??.log
+msbuild.binlog
+
+# Arquivos do Resharper
+_ReSharper*/
+*.resharper*
+*.DotSettings.user
+
+# Arquivos do CodeRush
+.cr/
+
+# Logs de erro
+*.log
+*.logs
+
+# Visual Studio Code
+.vscode/
+
+# Arquivos de análise de código
+*.eslintcache
+*.tsbuildinfo
+*.sln.ide
+
+# Pacotes NuGet
+*.nupkg
+*.nuspec
+*.snupkg
+packages/
