@@ -6,6 +6,7 @@ namespace BookManager.Controllers;
 [ApiController]
 public class BookController : ControllerBase
 {
+    [HttpPost]
     public IActionResult Create()
     {
         return Ok();
